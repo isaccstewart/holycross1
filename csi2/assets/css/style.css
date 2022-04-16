@@ -135,9 +135,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
 }
-#header.header-scrolled, #header.header-inner {
+ #header.header-inner {
   background: rgba(152, 155, 168, 0.98);
   height: 70px;
+}
+#header.header-scrolled {
+  background: rgba(152, 155, 168, 0.98);
+  opacity: 90%;
+  height: 80px;
 }
 #header #logo h1 {
   font-size: 36px;
@@ -220,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(202, 206, 221, 0.8);
+  color: rgba(252, 252, 253, 0.8);
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -263,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(173, 178, 190, 0.25);
   transition: 0.3s;
 }
 .navbar .dropdown ul li {
