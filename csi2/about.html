@@ -4,7 +4,72 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <style>
+    body{margin-top:20px;}
+.timeline-steps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
 
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted rgb(35, 32, 183);
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted rgb(35, 32, 183);
+        width: 3.8125rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 32, 183)
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: rgb(35, 32, 183);
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
   <title>About - CSI Holy Cross Church</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -127,12 +192,141 @@
 
                 <p>After independence in 1947, when the Air Force Station Headquarters took control of the area, official buildings were not permitted for religious worship. The few civilian Christians conducted worship services in the homes of Mr. G.R. Henry, Retd. Dy. Controller of Defence Accounts and Mr B. Devadason. Using their influence with Colonel Newton King, commandant of EME they obtained prayer and songbooks along with an organ for use in their worship. As more members joined Sunday worship, accommodation posed a serious problem and the need for a regular place of worship became imperative. The Henry family displayed a magnanimous gesture in donating the piece of land on which the present parsonage and the Church stand. The past and present congregations owe a fund of gratitude to that great family. This set the stage for the humble beginning of the first Church.
                 </p>
+              </div>
 
-
-
-            </div>
           </div>
+          <div class="container">
+            <div class="row text-center justify-content-center mb-5">
+                <div class="col-xl-6 col-lg-8">
+                    <h2>Important Dates</h2>
+                                    </div>
+            </div>
 
+            <div class="row">
+                <div class="col">
+                    <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2003">
+                                <div class="inner-circle"></div>
+                                <p class="h6 mt-3 mb-1">2003</p>
+                                <p class="h6 text-muted mb-0 mb-lg-0">Founded</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2004">
+                                <div class="inner-circle"></div>
+                                <p class="h6 mt-3 mb-1">2004</p>
+                                <p class="h6 text-muted mb-0 mb-lg-0">Built building</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2005">
+                                <div class="inner-circle"></div>
+                                <p class="h6 mt-3 mb-1">2005</p>
+                                <p class="h6 text-muted mb-0 mb-lg-0">new building</p>
+                            </div>
+                        </div>
+                        <div class="timeline-step">
+                            <div class="timeline-content" data-toggle="popover" data-trigger="hover" data-placement="top" title="" data-content="And here's some amazing content. It's very engaging. Right?" data-original-title="2010">
+                                <div class="inner-circle"></div>
+                                <p class="h6 mt-3 mb-1">2010</p>
+                                <p class="h6 text-muted mb-0 mb-lg-0">golden jubiliee</p>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+            <section id="schedule" class="section-with-bg">
+              <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                  <h2>Pastors in the Past</h2>
+                  <p>..........</p>
+                </div>
+
+
+
+                <h3 class="sub-heading">Sub heading </h3>
+
+                <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+                  <!-- Schdule Day 1 -->
+                  <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <h4>Rev. ABC</h4>
+                        <p>Breif description.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <div class="speaker">
+                          <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                        </div>
+                        <h4>Rev. <span>ABC</span></h4>
+                        <p>Brief description.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <div class="speaker">
+                          <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                        </div>
+                        <h4>Rev. <span>ABC</span></h4>
+                        <p>Brief description.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <div class="speaker">
+                          <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                        </div>
+                        <h4>Rev. <span>ABC</span></h4>
+                        <p>Brief description.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <div class="speaker">
+                          <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                        </div>
+                        <h4>Rev. <span>ABC</span></h4>
+                        <p>Brief description.</p>
+                      </div>
+                    </div>
+
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <div class="speaker">
+                          <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                        </div>
+                        <h4>Rev. <span>ABC</span></h4>
+                        <p>Brief description.</p>
+                      </div>
+                    </div>
+                    <div class="row schedule-item">
+                      <div class="col-md-2"><time>2021-2022</time></div>
+                      <div class="col-md-10">
+                        <div class="speaker">
+                          <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                        </div>
+                        <h4>Rev. <span>ABC</span></h4>
+                        <p>Brief description.</p>
+                      </div>
+                    </div>
+
+                  </div>  </div>
         </div>
 
       </div>
