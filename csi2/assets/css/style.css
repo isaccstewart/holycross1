@@ -136,11 +136,11 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
 }
  #header.header-inner {
-  background: rgba(152, 155, 168, 0.98);
+  background: rgb(5,11,37);
   height: 70px;
 }
 #header.header-scrolled {
-  background: rgba(152, 155, 168, 0.98);
+  background: rgb(5,11,37);
   opacity: 90%;
   height: 80px;
 }
