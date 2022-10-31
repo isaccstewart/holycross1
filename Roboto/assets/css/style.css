@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #2f3138;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -33,7 +33,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -147,7 +147,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -226,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   color: rgba(252, 252, 253, 0.8);
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   white-space: nowrap;
@@ -450,10 +450,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero h2 {
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  text-transform: uppercase;
+ /* text-transform: uppercase; */
 }
 #hero h2 span {
   color: rgb(11,7,255);
@@ -540,7 +540,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 #hero .about-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -1325,7 +1325,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #fff;
 }
@@ -1337,7 +1337,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 #footer .footer-top .social-links a {
