@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>My YouTube Channel</title>
+    <style>
+      #player {
+        width: 100%;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="player"></div>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    
+    <script>
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          width: '100%',
+          height: '500',
+          playerVars: {
+            'channel': 'UCRLN1r2DBUdvi0qGrJIHUZg',
+            'autoplay': 1,
+          },
+        });
+      }
+    </script>
+  </body>
+</html>
